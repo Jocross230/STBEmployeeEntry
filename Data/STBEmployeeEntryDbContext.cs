@@ -9,7 +9,7 @@ namespace STBEmployeeEntry.Data
         public STBEmployeeEntryDbContext(DbContextOptions<STBEmployeeEntryDbContext>options): base(options) 
         {
         }
-
+        //
         public DbSet<STBEmployeeEntryTable> STBEmployeeEntryTables { get; set; }
     }
 }
